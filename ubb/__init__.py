@@ -15,4 +15,4 @@ API_HASH = os.getenv('API_HASH', CONFIG['api_hash'])
 DUMP_ID = os.getenv('DUMP_ID', CONFIG['dump_id'])
 TOKEN = os.getenv('TOKEN', CONFIG['TOKEN'])
 
-Ubot = TelegramClient('Ubot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+Ubot = TelegramClient('Ubot', API_ID, API_HASH).start(bot_token=TOKEN)

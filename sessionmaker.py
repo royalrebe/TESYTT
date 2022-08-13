@@ -8,5 +8,5 @@ API_HASH = input("INSERT YOUR API HASH-->")
 
 bot = TelegramClient(StringSession(), API_KEY, API_HASH)
 bot.start()
-string_session = bot.session.save()
-print(string_session)
+TOKEN = bot.session.save()
+print(TOKEN)

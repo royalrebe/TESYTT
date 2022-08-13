@@ -10,7 +10,7 @@
       "required": true,
       "value": ""
     },
-    "STRING_SESSION": {
+    "TOKEN": {
       "description": "Gen your telethon string session",
       "required": true,
       "value": ""

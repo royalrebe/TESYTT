@@ -21,7 +21,7 @@ put api-id hit enter
 put api-hash hit enter
 put your phone number of tg ac hit enter(with country code)
 if you have set 2factor auth put your pwd and finnally u will get string session
-click on save session copy that session we gonna use that in env varable of STRING_SESSION
+click on save session copy that session we gonna use that in env varable of TOKEN
 ```
 ___
 ## By Termux StringSession:

@@ -1,4 +1,4 @@
-from CARDINGBOT import smx, OWNER_ID
+from ubb import Ubot
 from telethon import events
 from telethon.tl.functions.users import GetFullUserRequest
 

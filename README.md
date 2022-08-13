@@ -3,28 +3,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?)
 
 
-**Requirements to run this userbot**
-```
- • SESSION OF TELETHON (requires your tg ac auth)
- • API_ID & APIHASH (from 'my.telegram.org')
- • DUMP_ID = CHANNEL ID WHERE U WANT TO SEND SCRAPPED CARDS.
- • URL Var of env value should be https://<appnameofheroku>.herokuapp.com/.
-```
-If you got api id n hash then lets proceed for session.
-```
-fork this repo login to your heroku ac create new app.
-connect fork of this repo to heroku and deploy
-after deployment finish click on more option select run console.
-you will get bash interface run sessionmaker file by cmd
-'python3 sessionmaker.py'
-put api-id hit enter
-put api-hash hit enter
-put your phone number of tg ac hit enter(with country code)
-if you have set 2factor auth put your pwd and finnally u will get string session
-click on save session copy that session we gonna use that in env varable of TOKEN
-```
-___
-## By Termux StringSession:
+:
 ```
 git clone https://github.com/Xbinner18/ccchk-ub.git (clone this repo)
 
@@ -46,18 +25,6 @@ php over py for checker apis so they can understand and update by themselve that
 Make sure to use Proxies for sending post requests for better result.
 
 
-```diff
-- <#Disclaimer>
-- Your Telegram account may get terminated by TG.
-- I am not responsible for any inappropriate use of this userbot.
-- I have created this for education purpose only.
-- This project doesnt support any cybercrime its just for edu.
-- This is an opensource project selling isnt allowed.
-```
-
-
-# Credits
-•
 [Xbinner](https://telegram.dog/Xbinner) [xbinner18](https://github.com/xbinner18)
 - Special thanks to [Paperplane](https://github.com/RaphielGang/Telegram-Paperplane)
 - Thanks to [Lonami](https://github.com/Lonami) for telethon Library.

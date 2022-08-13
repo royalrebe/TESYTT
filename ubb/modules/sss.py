@@ -4,7 +4,7 @@ from telethon.tl.functions.users import GetFullUserRequest
 
 PICC = "https://telegra.ph/file/85fd8d6718c5ded6f4aab.jpg"
 
-@smx.on(events.NewMessage(pattern="/start"))
+@Ubot.on(events.NewMessage(pattern="/start"))
 async def start(event):              
     if event.is_private:
        RizBot = await event.client.get_me()
